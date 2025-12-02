@@ -1,11 +1,16 @@
-<script setup></script>
+<script setup>
+import HeroSection from '/public/components/HeroSection.vue';
+import EventCard from '/public/components/EventCard.vue';
+import Footers from '/public/components/Footer.vue';
+import navbar from '/public/components/Navbar.vue';
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+<navbar/>
+<HeroSection/>
+<EventCard/>
+<Footers/>
+
 </template>
 
 <style scoped></style>
